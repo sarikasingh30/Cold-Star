@@ -2,7 +2,7 @@
 
 ## About
 
-Explored API documentation.
+Explored API documentation. (omdbapi.com)
 
 Created a decent UI where anyone should be able to search for any movie they want
 
