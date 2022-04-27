@@ -1,0 +1,81 @@
+body {
+  background-image: url("https://cdn.vox-cdn.com/thumbor/ybRf9TwAH2J7VeSRxemzJAvNhMw=/0x0:6720x4480/1200x800/filters:focal(2717x1620:3791x2694)/cdn.vox-cdn.com/uploads/chorus_image/image/60141553/shutterstock_1068876371.0.jpg");
+  background-size: cover;
+}
+.container {
+  height: 300px;
+}
+#name {
+  width: 90%;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  color: wheat;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px double black;
+  border-radius: 8px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+#menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#menu > div {
+  align-items: center;
+  margin-top: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+h4 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+#search {
+  width: 200px;
+  height: 60px;
+  margin-left: 40%;
+  margin-top: 30px;
+  border: 0px solid black;
+  background-color: rgb(230, 80, 80);
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+#search:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+img {
+  width: 350px;
+  height: 400px;
+  margin-top: 10%;
+  margin-left: 7%;
+  border-radius: 50%;
+}
+button {
+  width: 50%;
+  height: 40px;
+  margin-top: 15px;
+  background-color: yellow;
+  color: black;
+  font-size: 25px;
+  border: 0px;
+  font-weight: bold;
+}
+p {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: dotted;
+  font-size: 18px;
+}
