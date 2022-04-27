@@ -18,11 +18,10 @@ function appendMovies(data) {
 
   data.Search.forEach(function (elem) {
     let carddiv = document.createElement("div");
-    carddiv.style.width = "400px";
-    carddiv.style.height = "650px";
-    carddiv.style.borderRadius = "400px";
+    carddiv.classList.add("carddiv")
     let imgdiv = document.createElement("img");
     imgdiv.src = elem.Poster;
+    imgdiv.classList.add("imgdiv")
     let year = document.createElement("h3");
     year.textContent = elem.Year;
     let title = document.createElement("h4");
@@ -30,15 +29,9 @@ function appendMovies(data) {
     let rate = Math.random() * 10;
     rate = rate.toFixed(1);
     let ratings = document.createElement("div");
-    ratings.style.width = "80px";
-    ratings.style.height = "30px";
-    ratings.style.marginLeft = "40%";
-    ratings.style.marginBottom = "5px";
-    ratings.style.borderRadius = "10px";
-    ratings.style.backgroundColor = "rgba(255,255,255,0.5)";
+      ratings.classList.add("ratings")
     let rates = document.createElement("p");
     rates.textContent = rate;
-
     ratings.append(rates);
     let clicktoWatch = document.createElement("button");
     clicktoWatch.textContent = "Click To Watch";
@@ -55,18 +48,12 @@ function appendMovies(data) {
 }
 function sorryData() {
   var x = document.createElement("div");
-  x.style.borderRadius = "150px";
-  x.style.height = "600px";
-  x.style.width = "550px";
-  x.style.marginLeft = "60%";
+  x.classList.add("x");
   var imagno = document.createElement("img");
+  imagno.classList.add("imagno")
   imagno.src =
     "https://media4.giphy.com/media/23BST5FQOc8k8/giphy.gif?cid=ecf05e47ul6yydda0y871nkne0teio92ryvgmm5u7w65lezp&rid=giphy.gif&ct=g";
-  imagno.style.width = "90%";
-  imagno.style.height = "80%";
-  imagno.style.border = "5px solid white";
-  imagno.style.marginLeft = "20px";
-
+  
   x.append(imagno);
   document.getElementById("menu").append(x);
 }
