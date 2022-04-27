@@ -1,4 +1,4 @@
-# Movie-app
+# Cold-Star
 
 ## About
 
